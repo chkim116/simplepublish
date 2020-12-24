@@ -1,0 +1,26 @@
+:root {
+    --white: #ffffff;
+    --black: #333;
+    --darkWhite: #dbdbdb;
+    --bg: #fafbfc;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: var(--black);
+    font-size: 14px;
+}
+
+a {
+    text-decoration: underline;
+    color: #0366d6;
+    cursor: pointer;
+}
+
+h1,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+}

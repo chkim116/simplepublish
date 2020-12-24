@@ -1,0 +1,160 @@
+@import "./root.css";
+
+#main {
+    width: 768px;
+    margin: 40px auto;
+    padding: 0 24px;
+}
+
+.info {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--darkWhite);
+}
+
+/* onwer select */
+
+input[type="text"] {
+    border: 1px solid var(--darkWhite);
+    border-radius: 8px;
+    background-color: var(--bg);
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #0366d6;
+    background: var(--white);
+}
+
+.owner {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.owner__title {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.owner__select {
+    width: 130px;
+    margin-top: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.owner__select:hover {
+    background: #ededed;
+}
+
+.owner__repo {
+    margin-top: 4px;
+    width: 250px;
+    padding: 8px;
+}
+
+.owner__slash {
+    padding: 16px 5px 0px 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.onwer__desc {
+    padding: 12px 0;
+    font-weight: 700;
+}
+
+.onwer__desc-input {
+    width: 704px;
+    padding: 8px 12px;
+}
+
+.link {
+    color: #22863a;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* public&private select */
+#public {
+    margin: 18px 0;
+    padding: 20px 0;
+    border-top: 1px solid var(--darkWhite);
+    border-bottom: 1px solid var(--darkWhite);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.public__select {
+    display: flex;
+    align-items: center;
+}
+
+.public__select > input {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.public__select-icon {
+    margin-left: 8px;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.public__select-icon > svg {
+    margin-right: 8px;
+}
+
+.public__select-desc > label {
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+/* initialize */
+#initial {
+    border-bottom: 1px solid var(--darkWhite);
+}
+
+.initial__info {
+    line-height: 25px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.initial__check {
+    margin: 12px 0;
+    display: flex;
+}
+
+.initial__check input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.initial__check-desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.initial__check-desc > label {
+    font-weight: 600;
+}
+
+/* submit btn */
+#button {
+    padding: 8px;
+    margin-top: 24px;
+}
+.create {
+    padding: 8px 16px;
+    background: #94d3a2;
+    outline: none;
+    border: 1px solid #94d3a2;
+    border-radius: 8px;
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+}
